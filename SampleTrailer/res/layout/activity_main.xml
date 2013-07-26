@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TextView
+        android:id="@id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/webView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="59.0dip"
+        android:text="Tap me to View Trailer"
+        android:textSize="15.0dip" />
+
+    <WebView
+        android:id="@id/webView2"
+        android:layout_width="fill_parent"
+        android:layout_height="200.0dip"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="24.0dip" />
+
+</RelativeLayout>
